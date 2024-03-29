@@ -144,3 +144,118 @@ header {
 .innersofware_child .p {
   font-size: 15px;
 }
+/* SERTİFİKALARIM */
+.inner_courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.child_courses {
+  flex-basis: 24%;
+  color: #fff;
+  padding: 20px 10px;
+  border: 1px solid transparent;
+  transition: 0.3;
+}
+.child_courses:hover {
+  border: 1px solid #24caac;
+}
+.child_courses .detail {
+  display: flex;
+  justify-content: space-between;
+}
+.child_courses .detail ul {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 50%;
+}
+.child_courses .detail ul li {
+  color: gold;
+}
+/* BAŞARILAR */
+.inner_achivement {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.child_achivment {
+  flex-basis: 40%;
+}
+.child_achivment img {
+  height: 70vh;
+  width: 100%;
+  object-fit: cover;
+}
+.child_achivment2 {
+  display: flex;
+  flex-basis: 46%;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+}
+.single_detail {
+  flex-basis: 48%;
+  padding: 40px 30px;
+  color: #fff;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.single_detail :hover {
+  transform: scale(1.03);
+}
+.sd1 {
+  background: #eaa023;
+  margin-bottom: 20px;
+}
+.single_detail:hover {
+  background: transparent;
+  border: 1px solid #fff;
+}
+.sd2 {
+  background: #e91e63;
+  margin-bottom: 20px;
+}
+.sd3 {
+  background: #24caac;
+  margin-bottom: 20px;
+}
+.sd4 {
+  background: #2f363e;
+  margin-bottom: 20px;
+}
+/* HAKKIMDA */
+.inner_testi {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+}
+.child_testi {
+  flex-basis: 46%;
+  margin-bottom: 30px;
+}
+.testi_img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+.testi_img img {
+  border-radius: 50%;
+}
+.test_highlight {
+  color: #24caac;
+  margin: 10px 0;
+  display: inline-block;
+}
+.test_highlight:hover {
+  text-decoration: underline;
+}
