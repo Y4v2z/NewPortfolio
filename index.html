@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>New Portfolio Web Site</title>
   <link rel="stylesheet" href="./CSS/style.css" />
+  <link rel="stylesheet" href="./CSS/resposive.css">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
@@ -16,8 +17,9 @@
 </head>
 
 <body>
+  <!-- Header -->
   <header>
-    <div class="navbar">
+    <nav class="navbar">
       <div class="logo">
         <h2>
           <a href="#">Yavuz AVCİ</a>
@@ -27,13 +29,17 @@
         <li><a href="#anasayfa">Anasayfa</a></li>
         <li><a href="#yazilimlar">Yazılımlar</a></li>
         <li><a href="#sertifikalarım">Sertifikalarım</a></li>
+        <li><a href="#basarilar">Başarılar</a></li>
         <li><a href="#hakkımda">Hakkımda</a></li>
         <li><a href="#iletisim">İletişim</a></li>
       </ul>
+    </nav>
+    <div id="menu_bar" >
+      <i class="fas fa-bars" ></i>
     </div>
   </header>
   <!-- Anasayfa -->
-  <section id="Anasayfa">
+  <section id="anasayfa">
     <div class="inner_anasayfa">
       <div class="child_anasayfa left">
         <h1>
@@ -87,7 +93,7 @@
     </div>
   </section>
   <!-- Sertifikalarım -->
-  <section id="sertifikalarim">
+  <section id="sertifikalarım">
     <div class="section_title">
       <h2>SERTİFİKALARIM</h2>
     </div>
@@ -159,7 +165,7 @@
     </div>
   </section>
   <!-- BASARİLAR -->
-  <section id="basariler">
+  <section id="basarilar">
     <div class="section_title">
       <H2>BAŞARILAR</H2>
     </div>
@@ -226,6 +232,26 @@
         <a class="test_highlight" href="#">Fatih Çetin</a>
         <p>Firma Müdürü</p>
       </div>
+  </section>
+  <!-- İLETİŞİM -->
+  <section id="iletisim" >
+    <div class="section_title">
+      <h2>İLETİŞİME GEÇ</h2>
+    </div>
+    <div class="inner_contact">
+      <div class="child_contact">
+        <img src="./IMG/iletisim.png" alt="">
+      </div>
+      <div class="child_contact">
+        <form action="">
+          <input type="text" name="fullname" id="" placeholder="isim" >
+          <input type="text" name="fullname" id="" placeholder="email" >
+          <input type="text" name="fullname" id="" placeholder="tel" >
+          <textarea name="message" id="" cols="30" rows="10" placeholder="Mesaj.." ></textarea>
+          <input type="submit" value="Gönder">
+        </form>
+      </div>
+    </div>
   </section>
 </body>
 

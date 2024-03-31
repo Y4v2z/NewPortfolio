@@ -40,6 +40,9 @@ header {
   width: 100%;
   z-index: 5;
 }
+#menu_bar {
+  display: none;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -258,4 +261,51 @@ header {
 }
 .test_highlight:hover {
   text-decoration: underline;
+}
+/* İLETİSİM */
+.inner_contact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80%;
+}
+.child_contact {
+  flex-basis: 45%;
+}
+.child_contact form {
+  padding: 50px 4px;
+  background: #2f363e;
+  border-radius: 5px;
+}
+.child_contact form input,
+textarea {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  background: #24292d;
+  resize: none;
+  border-radius: 25px;
+  transition: 0.3s ease-in;
+}
+.child_contact form input,
+textarea:focus {
+  color: #fff;
+}
+.child_contact form input:focus {
+  letter-spacing: 2px;
+}
+.child_contact form textarea:focus {
+  letter-spacing: 2px;
+}
+.child_contact form input:last-child {
+  margin-bottom: 0;
+  background: #24caac;
+  border: 1px solid #24caac;
+  transition: 0.3s;
+}
+.child_contact form input:last-child:hover {
+  background: transparent;
+  color: #fff;
 }
